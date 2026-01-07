@@ -1,0 +1,23 @@
+# ===== Node / Next.js =====
+node_modules/
+.next/
+out/
+dist/
+
+# ===== Solana / Anchor =====
+test-ledger/
+target/
+**/target/
+
+# ===== Logs & DB =====
+*.log
+rocksdb/
+
+# ===== Env =====
+.env
+.env.*
+
+# ===== OS / IDE =====
+.DS_Store
+.vscode/
+.idea/
